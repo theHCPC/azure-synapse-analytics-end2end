@@ -1898,7 +1898,7 @@
               },
               "kind": "StorageV2",
               "sku": {
-                "name": "Standard_GRS"
+                "name": "Standard_LRS"
               }
             },
             {
@@ -1917,7 +1917,7 @@
               },
               "kind": "StorageV2",
               "sku": {
-                "name": "Standard_GRS"
+                "name": "Standard_LRS"
               }
             },
             {
