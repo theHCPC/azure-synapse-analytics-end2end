@@ -19,11 +19,11 @@ param uniqueSuffix string = substring(uniqueString(resourceGroup().id),0,6)
 // Workload Deployment Control Parameters
 //********************************************************
 
-param ctrlDeployPurview bool = true     //Controls the deployment of Azure Purview
-param ctrlDeployAI bool = true     //Controls the deployment of Azure ML and Cognitive Services
-param ctrlDeployStreaming bool = true   //Controls the deployment of EventHubs and Stream Analytics
-param ctrlDeployDataShare bool = true   //Controls the deployment of Azure Data Share
-param ctrlDeployPrivateDNSZones bool = true //Controls the creation of private DNS zones for private links
+param ctrlDeployPurview bool = false     //Controls the deployment of Azure Purview
+param ctrlDeployAI bool = false     //Controls the deployment of Azure ML and Cognitive Services
+param ctrlDeployStreaming bool = false   //Controls the deployment of EventHubs and Stream Analytics
+param ctrlDeployDataShare bool = false   //Controls the deployment of Azure Data Share
+param ctrlDeployPrivateDNSZones bool = false //Controls the creation of private DNS zones for private links
 param ctrlDeployOperationalDB bool = false  ////Controls the creation of operational Azure database data sources
 param ctrlDeployCosmosDB bool = false //Controls the creation of CosmosDB if (ctrlDeployOperationalDBs == true)
 param ctrlDeploySampleArtifacts bool = false //Controls the creation of sample artifcats (SQL Scripts, Notebooks, Linked Services, Datasets, Dataflows, Pipelines) based on chosen template.
