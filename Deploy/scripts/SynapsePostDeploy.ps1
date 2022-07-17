@@ -108,7 +108,7 @@ function Save-SynapseLinkedService{
   $uri += "?api-version=2019-06-01-preview"
 
   Write-Host "Creating Linked Service [$LinkedServiceName]..."
-  $retrycount = 1
+  $retrycount = 5
   $completed = $false
   $secondsDelay = 60
 
