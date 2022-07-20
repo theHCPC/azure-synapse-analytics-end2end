@@ -29,7 +29,7 @@
     },
     "uniqueSuffix": {
       "type": "string",
-      "defaultValue": "a10uat",
+      "defaultValue": "000dev",
       "metadata": {
         "description": "Unique Suffix"
       }
@@ -970,7 +970,7 @@
               },
               "kind": "StorageV2",
               "sku": {
-                "name": "Standard_LRS"
+                "name": "Premium_LRS"
               },
               "dependsOn": [
                 "[resourceId('Microsoft.Synapse/workspaces', parameters('synapseWorkspaceName'))]"
@@ -1297,7 +1297,7 @@
               "location": "[parameters('resourceLocation')]",
               "kind": "StorageV2",
               "sku": {
-                "name": "Standard_LRS"
+                "name": "Premium_LRS"
               },
               "properties": {
                 "networkAcls": {
@@ -1898,7 +1898,7 @@
               },
               "kind": "StorageV2",
               "sku": {
-                "name": "Standard_GRS"
+                "name": "Premium_LRS"
               }
             },
             {
@@ -1917,7 +1917,7 @@
               },
               "kind": "StorageV2",
               "sku": {
-                "name": "Standard_GRS"
+                "name": "Premium_LRS"
               }
             },
             {
