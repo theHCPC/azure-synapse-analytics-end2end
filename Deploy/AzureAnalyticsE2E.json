@@ -107,7 +107,7 @@
     "vNetIPAddressPrefixes": {
       "type": "array",
       "defaultValue": [
-        "10.1.0.0/16"
+        "10.40.14.0/23"
       ],
       "metadata": {
         "description": "Virtual Network IP Address Space"
@@ -122,7 +122,7 @@
     },
     "vNetSubnetIPAddressPrefix": {
       "type": "string",
-      "defaultValue": "10.1.0.0/24",
+      "defaultValue": "10.40.14.0/24",
       "metadata": {
         "description": "Virtual Network Subnet Name"
       }
