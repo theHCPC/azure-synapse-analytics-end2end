@@ -99,7 +99,7 @@
     },
     "vNetName": {
       "type": "string",
-      "defaultValue": "[format('azvnet{0}', parameters('uniqueSuffix'))]",
+      "defaultValue": "[format('devMDW{0}', parameters('uniqueSuffix'))]",
       "metadata": {
         "description": "Virtual Network Name"
       }
