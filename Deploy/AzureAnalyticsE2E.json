@@ -247,7 +247,7 @@
     },
     "synapseSparkPoolName": {
       "type": "string",
-      "defaultValue": "SparkPool",
+      "defaultValue": "SparkPoolv3",
       "metadata": {
         "description": "Spark Pool Name"
       }
@@ -261,14 +261,14 @@
     },
     "synapseSparkPoolMinNodeCount": {
       "type": "int",
-      "defaultValue": 2,
+      "defaultValue": 3,
       "metadata": {
         "description": "Spark Min Node Count"
       }
     },
     "synapseSparkPoolMaxNodeCount": {
       "type": "int",
-      "defaultValue": 2,
+      "defaultValue": 3,
       "metadata": {
         "description": "Spark Max Node Count"
       }
