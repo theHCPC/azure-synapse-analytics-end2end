@@ -599,7 +599,7 @@ if ($NetworkIsolationMode -eq "vNet") {
           if ($privateEndpoint.ProvisioningState -eq "Succeeded") {
             if ($privateEndpoint.PrivateLinkServiceConnectionState.Status -eq "Pending") {
               Write-Host "Approving private endpoint for $managedPrivateEndpointName."
-              Approve-AzPrivateEndpointConnection -ResourceId $privateEndpoint.Id -Description "Auto-Approved" -ErrorAction Stop    
+              Approve-AzPrivateEndpointConnection -ResourceId $privateEndpoint.Id -Description "Auto-Approved" -ErrorAction Continue    
               $completed = $true
             }
             elseif ($privateEndpoint.PrivateLinkServiceConnectionState.Status -eq "Approved") {
