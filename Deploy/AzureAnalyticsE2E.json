@@ -29,7 +29,7 @@
     },
     "uniqueSuffix": {
       "type": "string",
-      "defaultValue": "004dev",
+      "defaultValue": "005dev",
       "metadata": {
         "description": "Unique Suffix"
       }
