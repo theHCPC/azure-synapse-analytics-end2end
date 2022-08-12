@@ -29,7 +29,7 @@
     },
     "uniqueSuffix": {
       "type": "string",
-      "defaultValue": "006uat",
+      "defaultValue": "007uat",
       "metadata": {
         "description": "Unique Suffix"
       }
