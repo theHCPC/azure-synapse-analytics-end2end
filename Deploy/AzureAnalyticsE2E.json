@@ -1068,7 +1068,7 @@
         }
       },
       "dependsOn": [
-        "[resourceId('Microsoft.Resources/deployments', 'PurviewDeploy')]"
+        
       ]
     },
     {
